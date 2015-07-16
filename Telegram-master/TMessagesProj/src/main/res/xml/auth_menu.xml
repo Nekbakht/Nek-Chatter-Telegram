@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/Settings"/>
+    <PreferenceScreen android:key="account_settings"
+        android:title="Account Settings"
+        android:summary="">
+        <intent android:action="org.nekC.messenger.OPEN_ACCOUNT"
+            android:targetPackage="org.nekC.messenger"
+            android:targetClass="org.nekC.ui.LaunchActivity"/>
+    </PreferenceScreen>
+</PreferenceScreen>
